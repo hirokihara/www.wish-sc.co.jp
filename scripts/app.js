@@ -3,6 +3,7 @@
 
 angular.module('app', [
   'app.top',
+  'app.outline',
   'ngNewRouter'
   ])
 .controller('AppController', ['$router', AppController]);
