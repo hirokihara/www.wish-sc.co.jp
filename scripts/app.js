@@ -4,6 +4,7 @@
 angular.module('app', [
   'app.top',
   'app.outline',
+  'app.work',
   'ngNewRouter'
   ])
 .controller('AppController', ['$router', AppController]);
