@@ -5,6 +5,7 @@ angular.module('app', [
   'app.top',
   'app.outline',
   'app.work',
+  'app.recruit',
   'ngNewRouter'
   ])
 .controller('AppController', ['$router', AppController]);
